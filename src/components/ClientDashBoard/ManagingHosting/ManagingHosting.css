@@ -1,0 +1,98 @@
+.domain-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.domain-info .first-sec{
+    width: 20%;
+}
+
+.domain-info .second-sec{
+    width: 37%;
+}
+.domain-info .third-sec{
+    width: 37%;
+}
+
+.title1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+}
+
+.domain-info .info,.domain-info .addon{
+    width: 100%;
+    /* background: gray; */
+    color: #262626;
+    overflow: hidden;
+    cursor: pointer;
+    height: 30px;
+}
+.domain-info .dxx{
+    transition: 0.2s all;
+    position: relative;
+}
+.domain-info .dxx i{
+    left: -15px;
+    position : relative;
+    transition: 0.2s all;
+    opacity: 0;
+}
+.domain-info .dxx:hover, .domain-info .dxx-active .active {
+    padding-left: 10px;
+    transition: 0.2s all;
+    background: #E3EFFC;
+}
+.domain-info .dxx:hover i,.domain-info .dxx-active .active  i{
+    left: 0%;
+    opacity: 1;
+}
+.domain-info .details-sec{
+    width : 80%;
+}
+
+@media only screen and (max-width: 1000px){
+    .domain-info{
+        flex-direction: column;
+    }
+    .domain-info .first-sec{
+        width: 100%;
+        margin-bottom: 40px;
+
+
+    }
+    
+    .domain-info .first-sec .info{
+        width: 50%;
+    }
+    .domain-info .first-sec .addon{
+        width: 50%;
+    }
+    .domain-info .details-sec{
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px){
+    .domain-info .details-sec{
+        width: 100%;
+    }
+    .domain-info .p_ffss{
+        flex-direction: column;
+    }
+    .p_ff{
+        width: 100%!important;
+    }
+    .p_ss{
+        width: 100%!important;
+    }
+    .productinformation .billinghostingsec{
+        height: auto!important;
+        display: unset!important;
+    }
+
+}

@@ -1,0 +1,9 @@
+.package-table thead th {
+    vertical-align: middle !important;
+}
+
+.package-table{
+    margin-top: 70px;
+    margin-bottom: 200px !important;
+    box-shadow: 0 8px 32px 0 rgb(0 0 0 / 8%);
+}

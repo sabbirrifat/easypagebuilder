@@ -1,0 +1,44 @@
+.carousel-item {
+    height: 80vh;
+    /* min-height: 300px; */
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.carousel-caption {
+    top: 50%;
+    left: 10% !important;
+}
+
+.carousel-control-next{
+    z-index: 100 !important;
+}
+
+@media screen and (max-width: 1600px) {
+    .carousel-item {
+      height: 800px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .carousel-item {
+      height: 600px;
+    }
+  }
+  
+  @media screen and (max-width: 960px) {
+    .carousel-item {
+      height: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    .carousel-item {
+      height: 300px;
+    }
+  }

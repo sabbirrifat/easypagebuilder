@@ -1,0 +1,30 @@
+.domain-availablity-check {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 200px;
+  border-radius: 12px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.57);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.domain-availablity-check-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.domain-availablity-check p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #d31f1f;
+}

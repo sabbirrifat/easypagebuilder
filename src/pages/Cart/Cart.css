@@ -1,0 +1,168 @@
+.cart-page {
+  margin-top: 120px;
+  margin-bottom: 300px;
+}
+
+.billing-years h3{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #112240;
+
+}
+
+.configure-package h3{
+    font-size: 22px;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    color: #112240;
+}
+
+.configure-box {
+  padding: 30px 30px !important;
+  box-shadow: 0 0 32px 0 rgb(0 0 0 / 8%);
+}
+
+.configure-box .ssl-para{
+    margin-top: 40px;
+  }
+.configure-box .ip-para{
+  margin-bottom: 16px;
+}
+
+.dedicated-ip {
+    margin-top: 10px;
+    border: 1px solid #bebdbd;
+    padding: 16px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.dedicated-ip.active{
+    border: 1px solid #144fc4;
+}
+
+.dedicated-ip h2{
+    font-size: 20px;
+    font-weight: normal;
+    display: flex;
+    color: #112240;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dedicated-ip p{
+    color: #112240;
+}
+
+.dedicated-ip .check-box {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #bebdbd;
+  margin-right: 16px;
+}
+
+.dedicated-ip .check-box.active{
+    background: #144fc4;;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+/* SSL Select */
+
+
+
+.ssl-select{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.ssl-select col {
+    padding: 0 10px;
+}
+
+
+.ssl-select .ssl-box{
+    background-color: white;
+    padding: 26px 20px !important;
+    box-shadow: 0 0 32px 0 rgb(0 0 0 / 8%);
+    height: 200px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.ssl-select .ssl-box.active {
+    border: 1px solid #144fc4;
+}
+  
+  .ssl-box h2 {
+    display: flex;
+    margin-top: 8px;
+    font-size: 15px;
+  }
+  
+  .ssl-box h2 .radio-box {
+    min-width: 20px;
+    max-height: 20px;
+    margin-right: 16px;
+    border: 2px solid #5a5959;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .ssl-box p {
+    font-size: 14px;
+    margin-top: auto;
+    align-self: flex-end;
+  }
+  
+  .ssl-box h2 .radio-box.active {
+    background-color: #144fc4;
+    border: none;
+  }
+  
+
+/* Hosting Package */
+
+.hosting-pack {
+    padding: 40px 30px;
+    box-shadow: 0 0 32px 0 rgb(0 0 0 / 8%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.hosting-pack h2{
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.hosting-pack button {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.hosting-pack ul{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 20px;
+}

@@ -1,0 +1,20 @@
+.a_xx_tt{
+    border: 1px solid rgb(196, 196, 196);
+        /* height: 30px; */
+    /* height: 30px; */
+    padding: 3px 7px;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #262626;
+    transition: 0.2s;
+}
+.a_xx_tt:hover{
+    background: #262626;
+    color: white!important;
+}
+
+.billinginfo tr {
+    display: flex;
+}

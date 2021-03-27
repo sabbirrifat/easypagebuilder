@@ -1,0 +1,45 @@
+.clinetservices{
+    margin-left: 132px;
+    padding : 40px;
+}
+
+.title h1{
+    font-size: 36px;
+    color: #112240;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 6px;
+}
+.top-com{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.service-serch-bar{
+    width: 300px;
+}
+
+@media (max-width: 1200px){
+    .clinetservices{
+        margin-left: 0px;
+        padding:15px;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 700px){
+    .top-com{
+        flex-direction: column;
+    }
+    
+
+
+
+
+
+}

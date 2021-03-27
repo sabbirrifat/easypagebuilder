@@ -1,0 +1,138 @@
+.checkout-page {
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+
+.checkout-page h1{
+    margin-bottom: 26px;
+}
+
+.checkout-page-cart-items {
+  -webkit-box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.15);
+}
+
+.checkout-page .cart-items-header {
+  margin-top: 16px;
+}
+
+.checkout-page .cart-items-data .product-name {
+  font-size: 16px;
+  color: black;
+}
+
+.checkout-page .cart-items-data .product-price {
+  font-size: 18px;
+  color: black;
+}
+
+.checkout-page .cart-items-data .cart-item-delete {
+  font-size: 18px;
+}
+
+.checkout-page .cart-items-actions {
+  margin-top: 26px;
+}
+
+.checkout-page .cart-items-actions button {
+  padding: 8px 20px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+.checkout-page .order-summary {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.15);
+}
+
+.checkout-page .order-summary h3{
+    margin-bottom: 26px;
+}
+
+.checkout-page .order-summary .total-due{
+    margin-top: 16px;
+}
+
+.checkout-page .order-summary button {
+    border: 1px solid black;
+    width: 100%;
+    padding : 8px 12px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.checkout-page .billing-details{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.checkout-page .billing-details h3{
+  font-size: 2rem;
+}
+
+.checkout-page .cart-items-actions{
+  margin-bottom: 16px;
+}
+
+.MuiFormControl-root{
+  width: 100%;
+}
+
+.registrationbtn{
+  width:50%;
+  margin-left: 15px;
+  border: 1px solid #262626;
+  height: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.registrationbtn:hover{
+  background: black;
+  color: white;
+}
+
+/* 
+
+
+
+
+    
+
+  
+  */
+
+
+
+/*           
+  fetch(`${process.env.REACT_APP_BACKEND_URL}/orders`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      'Authorization' : 'Bearer '+localStorage.getItem('auth_token')
+    },
+    body: JSON.stringify({...order_details,User_id:10}),
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data)
+    })
+    .catch((error) => {
+       console.log('error occured. Please try again letter')
+    }); */
+
+
+    

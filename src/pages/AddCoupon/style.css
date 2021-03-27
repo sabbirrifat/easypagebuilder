@@ -1,0 +1,32 @@
+.addcoupon{
+    width: 100%;
+}
+.t_xtcpnap{
+    color : #04b804;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #04b804!important;
+}
+.t_xtcpn{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.checkout-comp .t_xtcpn{
+    border : 1px solid #262626!important;
+    padding : 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.checkout-comp .t_xtcpnap{
+    padding : 10px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+
+
+
+}

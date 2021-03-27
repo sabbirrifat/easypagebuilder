@@ -1,0 +1,11 @@
+<OwlCarousel className="partner-slider owl-carousel owl-theme" {...options} >
+                
+            {
+                list.map((value,i)=>(
+                    <div className='slider'>
+                        {i}
+                    </div>
+                ))
+            }
+            
+            </OwlCarousel>

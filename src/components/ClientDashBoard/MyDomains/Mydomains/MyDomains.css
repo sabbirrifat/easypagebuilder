@@ -1,0 +1,18 @@
+.mydomains{
+    margin-left: 132px;
+    padding : 40px;
+    
+}
+
+
+@media (max-width: 1200px){
+    .mydomains{
+        margin-left: 0px;
+        padding: 15px
+    }
+
+
+
+
+
+}

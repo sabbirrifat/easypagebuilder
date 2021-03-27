@@ -1,0 +1,35 @@
+.scut-sec{
+    margin-top: 70px;
+}
+
+.scut-sec .shortcuttitle{
+    font-size: 20px;
+    font-weight: 800;
+    color: #143673;
+}
+
+.scut-sec .shortcuts{
+    margin-top: 25px;
+}
+
+.scut-sec .shortcuts a{
+    width: 100%;
+    height: 100%;
+}
+.shortcutss{
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 4px;
+    line-height: 30px;
+    transition: 0.2s;
+    color: #262626;
+    cursor: pointer;
+}
+
+.shortcutss:hover{
+    padding-left: 25px;
+    background: #eaeaea;
+
+}

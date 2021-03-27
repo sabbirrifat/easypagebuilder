@@ -1,0 +1,52 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+    height: 100%;
+}
+
+.rtl-style {
+    font-family: 'Varela Round', sans-serif !important;
+    text-align: right;
+}
+
+.rtl-style h1, h2, h3, h4, h5, h6{
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+.rtl-style .button-text-1,
+.button-text-2,
+.button-text-3{
+    font-family: 'Varela Round', sans-serif !important;
+
+}
+
+.rtl-style .header .header-menu .nav .nav-item .nav-link{
+    font-family: 'Varela Round', sans-serif !important;
+
+}
+
+.rtl-style .product-info-box .nav .nav-item .nav-link{
+    font-family: 'Varela Round', sans-serif !important;
+
+}
+
+
+.rtl-style .font-family-primary {
+    font-family: 'Varela Round', sans-serif !important;
+    
+  }
+  
+.rtl-style .font-family-secondary, .font-family-playfair {
+    font-family: 'Varela Round', sans-serif !important;
+    
+  }
+  
+ .rtl-style .font-family-tertiary {
+    font-family: 'Varela Round', sans-serif !important;
+    
+  }
+

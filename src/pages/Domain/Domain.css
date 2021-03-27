@@ -1,0 +1,52 @@
+.domain-choose-section .domain-choose-header {
+    margin-bottom: 50px;
+}
+
+.domain-choose-section .domain-choose-body .choose-box-middle{
+    display: flex;
+    align-items: center;    
+}
+
+.domain-choose-section .domain-choose-body .choose-box-middle p {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+.domain-choose-box {
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.domain-choose-box h1 {
+    font-size: 24px;
+}
+.domain-choose-box p{
+    font-size: 16px;
+}
+
+.domain-choose-section button {
+    padding: 12px 40px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}

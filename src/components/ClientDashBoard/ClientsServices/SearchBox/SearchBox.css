@@ -1,0 +1,28 @@
+.searchboxa1{
+    display: flex;
+    justify-content: left;
+    height: 40px;
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid #98989857;
+    margin-top: 13px;
+    transition: 0.3s;
+}
+.searchboxa1 input{
+    padding:0px;
+    margin: 0px;
+    border: none;
+}
+.searchboxa1 i{
+    height: 40px;
+    width: 55px;
+    /* background: red; */
+    text-align: center;
+    line-height: 40px;
+    color: whie;
+    color: #969696;
+    font-size: 23px;
+}
+.searchboxa1 input:focus .searchboxa1{
+    background : red;
+}
